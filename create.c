@@ -9,7 +9,7 @@ static int callback(void *notused,int argc,char **argv,char **azcolname)
 	}
 	printf("\n");
 	return 0;
-}	
+}
 int main(int argc,char *argv[])
 {
         sqlite3 *db;
@@ -45,4 +45,3 @@ int main(int argc,char *argv[])
         sqlite3_close(db);
 	return 0;
 }
-
